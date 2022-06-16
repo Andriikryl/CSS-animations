@@ -1,4 +1,4 @@
-*,
+
 *::before,
 *::after {
   padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #eee;
+  background-color: black;
   min-height: 100vh;
   display: -webkit-box;
   display: flex;
@@ -42,6 +42,31 @@ body {
           transform-style: preserve-3d;
   -webkit-animation: cubeRotate 10s linear infinite;
           animation: cubeRotate 10s linear infinite;
+}
+
+.side__front__img{
+        width: 200px;
+        height: 200px;
+}
+.side__left__img{
+        width: 200px;
+        height: 200px; 
+}
+.side__right__img{
+        width: 200px;
+        height: 200px; 
+}
+.side__back__img{
+        width: 200px;
+        height: 200px; 
+}
+.side__top__img{
+        width: 200px;
+        height: 200px; 
+}
+.side__bottom__img{
+        width: 200px;
+        height: 200px; 
 }
 
 @-webkit-keyframes cubeRotate {
@@ -108,4 +133,8 @@ body {
   background-color: #64dd17;
   -webkit-transform: rotateX(-90deg) translateZ(100px);
           transform: rotateX(-90deg) translateZ(100px);
-}
+} 
+
+
+
+
